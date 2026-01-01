@@ -1,0 +1,39 @@
+系统调用入口: audit?
+自旋锁
+sched_clock
+wait/complete
+调度：try_to_wake_up + schedule
+ktime_get
+
+trace点
+#ifdef CONFIG_DEBUG_PREEMPT
+smp_processor_id()
+__this_cpu_read();
+#endif
+随机数
+
+mutex_lock
+缺页异常
+
+中断：
+smp_call_function
+调度：
+
+futex
+
+kmalloc/kfree
+futex
+mmap/munmap
+alloc_pages/free_pages
+vmalloc/vfree
+munmap
+
+信号
+
+
+
+获取tls变量
+timeofday
+
+memcpy
+memset
